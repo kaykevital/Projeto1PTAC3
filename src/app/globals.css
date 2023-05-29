@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html,body{
+  max-width: 200vw;
+  background-color: rgb(185, 244, 235)
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+.botao{
+  width: 50%;
+  padding: 20px;
+  background: rgb(115, 203, 190);
+  color:white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  transition: 1s all;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+p{
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.botao:hover{
+  background: rgb(2, 14, 12);
+	transform: scale(1.2);
+}
+
+input{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.informacoes{
+  font-size: 20px;
+}
+
+.voltar{
+  width: 50%;
+  padding: 20px;
+  background: rgb(115, 203, 190);
+  color:white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  transition: 1s all;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.voltar:hover{
+  background: rgb(2, 14, 12);
+	transform: scale(1.8);
+}
+
+h2{
+  text-align: center;
+  color: white;
+}
+
+fieldset{
+  border: 3px solid;
+  padding: 50px;
+  background-image: linear-gradient(90deg, rgba(115, 203, 190, 1) 10%, rgba(87, 175, 163, 1) 20%, rgba(58, 148, 137, 1) 35%, 
+  rgba(24, 122, 111, 1) 45%, rgba(0, 97, 87, 1) 55%, rgba(0, 73, 64, 1) 65%, rgba(0, 50, 42, 1) 80%, rgba(0, 30, 21, 1) 90%,
+ rgba(0, 0, 0, 1) 100%);
+ border-color: white;
+}
+
+legend{
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+
+.link{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  border: solid white;
+  padding: 10px;
+}
+
+button{
+  width: 10%;
+  padding: 20px;
+  background: rgb(115, 203, 190);
+  color:white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  transition: 1s all;
+  cursor: pointer;
+
+}
+
+button:hover{
+  background: rgb(2, 14, 12);
+	transform: scale(1.2);
+}
+
+.card{
+  margin-top: 30px;
+}
